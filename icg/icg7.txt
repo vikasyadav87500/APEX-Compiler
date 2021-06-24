@@ -1,0 +1,14 @@
+a = 9
+b = 3
+T0 = 1  
+L1:
+T1 = b > 0 
+T2 = not T1
+If T2 goto L2 
+T3 = T0 * a 
+T0 = T3 
+T4 = b - 1 
+b = T4
+goto L1
+L2: 
+pow = T0

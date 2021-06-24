@@ -1,0 +1,23 @@
+a = 9
+b = 6
+T0 = a * b 
+L1:
+T1 = a != b 
+T2 = not T1
+If T2 goto L2 
+T3 = a > b 
+T4 = not T3
+If T4 goto L3
+T5 = a - b 
+a = T5  
+goto L50
+L3:
+T6 = b - a 
+b = T6  
+L50: 
+goto L4 
+L4:
+goto L1 
+L2: 
+T7 = T0 / a 
+result = T7

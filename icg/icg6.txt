@@ -1,0 +1,21 @@
+a = 9
+b = 6
+L1:
+T0 = a != b 
+T1 = not T0
+If T1 goto L2 
+T2 = a > b 
+T3 = not T2
+If T3 goto L3
+T4 = a - b 
+a = T4  
+goto L50
+L3:
+T5 = b - a 
+b = T5  
+L50: 
+goto L4 
+L4:
+goto L1 
+L2: 
+result = a

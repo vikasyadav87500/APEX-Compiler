@@ -1,0 +1,452 @@
+html {
+    overflow: auto;
+}
+body {
+    position: absolute;
+    top: 20px;
+    left: 0px;
+    bottom: 20px;
+    right: 10px;
+    padding-right: 10px; 
+    overflow-y: scroll;
+    overflow-x: hidden;
+    background-image: url(https://www.knoxalliance.store/wp-content/uploads/2017/05/light-color-background-images-for-website-top-hd-images-for-free-light-color-background-images-for-website-1-1024x768.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* Let's get this party started */
+::-webkit-scrollbar {
+    width: 12px;
+}
+ 
+/* Track */
+::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3); 
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    background: rgba(196, 193, 192, 0.952); 
+    -webkit-box-shadow: inset 0 0 6px rgba(1, 4, 46, 0.959); 
+}
+::-webkit-scrollbar-thumb:window-inactive {
+	background: rgb(66, 68, 68); 
+}
+
+body{
+    /* background-image: url(https://lh3.googleusercontent.com/proxy/0w3d5o0OV5_w8oRtDB4rITcMIButAtKRcBzvzOPj5vc-9vGYz_eCYp06WJ095f_3NQQ8jgB8JpbwhrT8okZKQ5Mk_ItC6F4S_-WRCgg6jFdwWbKndVyTRwWAyhxIYhdZA56wpB575ue0dYwSyhsnyA); */
+    background-image: url(https://wallpapercave.com/wp/wp3165100.jpg);
+
+    background-repeat:no-repeat;
+    background-size: cover;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+
+/* #heading{
+    background-color:rgb(240, 250, 203);
+    color: rgb(1, 1, 31);
+    font-family:cursive;
+    text-decoration: underline;
+    border: 2px solid rgb(19, 20, 0);
+} */
+.neon {
+    color: #920e0a;
+    text-shadow: 0 0 5px #fad4a8, 0 0 10px #ffbaa5,
+             0 0 20px #fdffa5, 0 0 30px #fff1a5,
+             0 0 40px #ffd5a5;
+    font-size: 45px;
+}
+
+#code,#symbol{
+    width: 80%;
+    /* display:table; */
+    background-color: white;
+    color: black;
+    /* margin-right: 10%; */
+    /* border: 2px solid rgb(250, 201, 3); */
+    margin-left: 5%;
+    border: 2px solid black;
+    border-radius: 4px;
+}
+
+table th{
+    padding: 8px;
+    font-size:20px;
+    background-color: rgb(85, 15, 3);
+    border-bottom: 1px solid #ddd;
+    border-right: 1px solid #ddd;
+    color:white;
+}
+table td{
+    padding: 8px;
+    font-size: 18px;
+    font-weight: 400;
+    border-bottom: 1px solid #ddd;
+    border-right: 1px solid #ddd;
+}
+
+#pointer{
+    color:rgb(37, 5, 37);
+    font-weight: 800;
+    font-size: 28px;
+
+}
+
+table tbody tr:nth-of-type(odd) td{
+    background: #f8bcad;
+}
+
+
+
+table tr:hover{
+    background-color:rgb(250, 250, 210);
+}
+
+.row {
+    margin-left:-5px;
+    margin-right:-5px;
+  }
+    
+.column1{
+    float: left;
+    width: 40%;
+    padding: 5px;
+}
+.column2{
+    float: right;
+    width: 30%;
+    padding: 5px;
+}
+  
+
+/* Clearfix (clear floats) */
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.box{
+    height:60%;
+}
+#textbox{
+    height: 400px !important;
+    width: 35%  !important;
+    font-size:22px !important;
+    /* background-color:rgb(213, 252, 212); */
+    /* background-image: linear-gradient(to right, rgb(248, 227, 218), rgb(250, 182, 165)); */
+    background-image: url("./images/wallpapersden.com_k-apex-legends_3840x2400.jpg");
+    background-size:contain;
+    /* background-repeat: no-repeat; */
+    padding:2% !important;
+    overflow:scroll !important; 
+    overflow-x: hidden !important;
+    color:rgb(247, 243, 30);
+    font-weight: 500;
+    /* text-align: center; */
+    border:3px solid white;
+}
+
+.run{
+    padding: 2% 47%;
+}
+
+.button {
+    display: block;
+    position: relative;
+    float: left;
+    width: 100px;
+    margin-left:3%;
+    font-weight: 600;
+    text-align: center;
+    line-height: 50px;
+    color: #FFF;
+    border-radius: 5px;
+    transition: all 0.2s ;
+    
+}
+
+.btnBlueGreen {
+  /* background-image: linear-gradient(to right, rgb(123, 250, 150), rgb(3, 173, 12)); */
+  background-color:rgb(6, 168, 20);
+  color: white;
+  /* background-color: rgb(234, 129, 255); */
+}
+
+.btnRed{
+  /* background-image: linear-gradient(to right,#ff6358,rgb(214, 2, 2)); */
+  background-color:rgb(219, 17, 17);
+}
+
+
+.click{
+    margin-top: 15%;
+}
+
+.btnPush:hover {
+    margin-top: 15.5%;
+    margin-bottom: 5px;
+}
+
+
+
+.btnBlueGreen.btnPush {
+    box-shadow: 0px 5px 0px 0px #1f7704;
+}
+  
+.btnBlueGreen.btnPush:hover {
+    box-shadow: 0px 0px 0px 0px #074e01;
+}
+
+.btnRed.btnPush {
+    box-shadow: 0px 5px 0px 0px #712400;
+}
+  
+.btnRed.btnPush:hover {
+    box-shadow: 0px 0px 0px 0px #581b02;
+}
+
+.button{
+    border-color: white;
+}
+
+
+
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,500,300,700);
+
+* {
+  font-family: Roboto;
+}
+
+.footer-distributed{
+	background: #444;
+	box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+	box-sizing: border-box;
+	width: 100%;
+	font: bold 16px sans-serif;
+	text-align: left;
+	padding: 20px 60px 40px;
+	overflow: hidden;
+    margin-top: 100px;
+height: fit-content;
+}
+
+section {
+  width: 100%;
+  display: inline-block;
+  background: #ccc;
+  height: 60vh;
+  text-align: center;
+  font-size: 22px;
+  font-weight: 700;
+  text-decoration: underline;
+}
+
+
+/* Footer left */
+
+.footer-distributed .footer-left{
+	float: left;
+}
+
+/* The company logo */
+
+.footer-distributed h3{
+	color:  #ffffff;
+	font: normal 36px 'Roboto', cursive;
+	margin: 0 0 10px;
+}
+
+.footer-distributed h3 span{
+	color:  #5383d3;
+}
+
+/* Footer links */
+
+.footer-distributed .footer-links{
+	color:  #ffffff;
+	margin: 0 0 10px;
+	padding: 0;
+}
+
+.footer-distributed .footer-links a{
+	display:inline-block;
+	line-height: 1.8;
+	text-decoration: none;
+	color:  inherit;
+}
+
+.footer-distributed .footer-company-name{
+	color:  #8f9296;
+	font-size: 14px;
+	font-weight: normal;
+	margin: 0;
+}
+
+/* Footer social icons */
+
+.footer-distributed .footer-icons{
+	margin-top: 40px;
+}
+
+.footer-distributed .footer-icons a{
+	display: inline-block;
+	width: 35px;
+	height: 35px;
+	cursor: pointer;
+	background-color:  #33383b;
+	border-radius: 2px;
+
+	font-size: 20px;
+	color: #ffffff;
+	text-align: center;
+	line-height: 35px;
+
+	margin-right: 3px;
+	margin-bottom: 5px;
+}
+
+/* Footer Right */
+
+.footer-distributed .footer-right{
+	float: right;
+}
+
+.footer-distributed .footer-right p{
+	display: inline-block;
+	vertical-align: top;
+	margin: 15px 42px 0 0;
+	color: #ffffff;
+}
+
+/* The contact form */
+
+.footer-distributed form{
+	display: inline-block;
+}
+
+.footer-distributed form input,
+.footer-distributed form textarea{
+	display: block;
+	border-radius: 3px;
+	box-sizing: border-box;
+	background-color:  #1f2022;
+	box-shadow: 0 1px 0 0 rgba(255, 255, 255, 0.1);
+	border: none;
+	resize: none;
+
+	font: inherit;
+	font-size: 14px;
+	font-weight: normal;
+	color:  #d1d2d2;
+
+	width: 400px;
+	padding: 18px;
+}
+
+.footer-distributed ::-webkit-input-placeholder {
+	color:  #5c666b;
+}
+
+.footer-distributed ::-moz-placeholder {
+	color:  #5c666b;
+	opacity: 1;
+}
+
+.footer-distributed :-ms-input-placeholder{
+	color:  #5c666b;
+}
+
+
+.footer-distributed form input{
+	height: 55px;
+	margin-bottom: 15px;
+}
+
+.footer-distributed form textarea{
+	height: 100px;
+	margin-bottom: 20px;
+}
+
+.footer-distributed form button{
+	border-radius: 3px;
+	background-color:  #33383b;
+	color: #ffffff;
+	border: 0;
+	padding: 15px 50px;
+	font-weight: bold;
+	float: right;
+}
+
+/* If you don't want the footer to be responsive, remove these media queries */
+
+@media (max-width: 1000px) {
+
+	.footer-distributed {
+		font: bold 14px sans-serif;
+	}
+
+	.footer-distributed .footer-company-name{
+		font-size: 12px;
+	}
+
+	.footer-distributed form input,
+	.footer-distributed form textarea{
+		width: 250px;
+	}
+
+	.footer-distributed form button{
+		padding: 10px 35px;
+	}
+
+}
+
+@media (max-width: 800px) {
+
+	.footer-distributed{
+		padding: 30px;
+        margin-top: 100px;
+        
+	}
+
+	.footer-distributed .footer-left,
+	.footer-distributed .footer-right{
+		float: none;
+		max-width: 300px;
+		margin: 0 auto;
+	}
+
+	.footer-distributed .footer-left{
+		margin-bottom: 40px;
+	}
+
+	.footer-distributed form{
+		margin-top: 30px;
+	}
+
+	.footer-distributed form{
+		display: block;
+	}
+
+	.footer-distributed form button{
+		float: none;
+	}
+
+}
+.developer{
+    font-size: 1.2rem;
+    font: normal 20px 'Roboto', cursive;
+
+}
+.roll{
+    color: #3177f0;
+    font-size: 1rem;
+    font: normal 20px 'Roboto', cursive;
+
+}

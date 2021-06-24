@@ -1,0 +1,32 @@
+odd = 0
+even = 0
+n = 11
+e = 0
+i = 1
+L1: 
+T0 = i <= n
+T1 = not T0 
+If T1 goto L4 
+If T0 goto L3 
+L2: 
+T2 = i + 1
+i = T2
+goto L1 
+L3: 
+T3 = e == 0
+T4 = not T3
+If T4 goto L5
+e = 1
+T5 = odd + 1
+odd = T5
+goto L50
+L5:
+e = 0
+T6 = even + 1
+even = T6
+goto L50
+L50: 
+goto L6
+L6:
+goto L2 
+L4: 
