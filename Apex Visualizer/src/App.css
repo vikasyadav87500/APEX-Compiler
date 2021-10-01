@@ -13,6 +13,10 @@
   }
 }
 
+h1{
+  color: green;
+}
+
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
@@ -26,6 +30,11 @@
 
 .App-link {
   color: #61dafb;
+}
+
+input{
+  border : 2px solid red;
+  height : 50px;
 }
 
 @keyframes App-logo-spin {
